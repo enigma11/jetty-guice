@@ -1,0 +1,33 @@
+<configuration scan="true" scanPeriod="60 seconds">
+
+    <appender name="application-file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>application.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>100MB</maxFileSize>
+        </triggeringPolicy>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%-2(%date{ISO8601}) |%-5level|[%thread] requestId=%X{correlationId} %logger{10}.%method{20} -%msg%n %n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%-2(%date{ISO8601}) |%-5level|[%thread] requestId=%X{correlationId} %logger{10}.%method{20} -%msg%n %n</Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.workshare" level="INFO" additivity="false">
+        <appender-ref ref="application-file"/>
+    </logger>
+
+    <root>
+        <level value="INFO" />
+        <appender-ref ref="application-file" />
+    </root>
+</configuration>
