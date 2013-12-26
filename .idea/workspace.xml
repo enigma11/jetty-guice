@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a867fcb-4758-4918-8f7d-65b1a1c5dacc" name="Default" comment="" />
+    <list default="true" id="2a867fcb-4758-4918-8f7d-65b1a1c5dacc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/websocket-test.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_0_3_v20130506.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/gdiama/server/ObjectMapperResolver.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/resources/ObjectMapperResolver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdiama/server/ApplicationContextListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/server/ApplicationContextListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-guice.iml" afterPath="$PROJECT_DIR$/jetty-guice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="jetty-guice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="2a867fcb-4758-4918-8f7d-65b1a1c5dacc" time="1387902066204" ignored="false" />
-    <file path="/AppConfig.java" changelist="2a867fcb-4758-4918-8f7d-65b1a1c5dacc" time="1387902074500" ignored="false" />
-    <file path="/pom.xml" changelist="2a867fcb-4758-4918-8f7d-65b1a1c5dacc" time="1387902894321" ignored="false" />
-    <file path="/SampleResource.java" changelist="2a867fcb-4758-4918-8f7d-65b1a1c5dacc" time="1387902987289" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +78,128 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" line="37" class="com.gdiama.websocket.WebsocketEndpoint" package="com.gdiama.websocket">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" line="52" class="com.gdiama.websocket.WebsocketEndpoint" package="com.gdiama.websocket">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" line="47" class="com.gdiama.websocket.WebsocketEndpoint" package="com.gdiama.websocket">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" line="42" class="com.gdiama.websocket.WebsocketEndpoint" package="com.gdiama.websocket">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" line="25" class="com.gdiama.websocket.WebsocketEndpoint$1" package="com.gdiama.websocket">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java" line="23" class="com.gdiama.resources.SampleResource" package="com.gdiama.resources">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/ObjectMapperResolver.java" line="29" class="com.gdiama.resources.ObjectMapperResolver" package="com.gdiama.resources">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java" line="41" class="com.gdiama.server.MainModule" package="com.gdiama.server">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -68,53 +209,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainModule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java">
+      <file leaf-file-name="JettyServer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JettyServerWrapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="118" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
+            <state line="52" column="255" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <file leaf-file-name="WebSocketServerContainerInitializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.0.v20131115/javax-websocket-server-impl-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/jsr356/server/deploy/WebSocketServerContainerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="16" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
+            <state line="61" column="69" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2745">
+              <folding>
+                <element signature="e#0#8461#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#7567#7597#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketUpgradeFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-server/9.1.0.v20131115/websocket-server-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/server/WebSocketUpgradeFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="33" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2910">
+              <folding>
+                <element signature="e#0#8320#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#6896#6897#0" expanded="false" />
+                <element signature="e#6926#6927#0" expanded="false" />
+                <element signature="e#7062#7063#0" expanded="false" />
+                <element signature="e#7092#7093#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletContextHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/servlet/ServletContextHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="364" column="52" selection-start="13217" selection-end="13217" vertical-scroll-proportion="0.0" vertical-offset="4211" max-vertical-offset="18315">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationContextListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/ApplicationContextListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppExec.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/AppExec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="51" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +259,16 @@
       <file leaf-file-name="SampleResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="59" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebsocketEndpoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="76" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="885">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,38 +276,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JettyServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java">
+      <file leaf-file-name="AsyncResponseImpl.class" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/AsyncResponseImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+            <state line="6" column="19" selection-start="179" selection-end="179" vertical-scroll-proportion="0.09627728" vertical-offset="0" max-vertical-offset="779">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/config/AppConfig.java">
+      <file leaf-file-name="ServletHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/servlet/ServletHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+            <state line="991" column="26" selection-start="36248" selection-end="36248" vertical-scroll-proportion="0.0" vertical-offset="12926" max-vertical-offset="24270">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FilterMapping.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/servlet/FilterMapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="78" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.31990522">
-              <folding />
+            <state line="103" column="32" selection-start="3449" selection-end="3449" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="3555">
+              <folding>
+                <element signature="e#0#8724#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4615#4616#0" expanded="false" />
+                <element signature="e#4649#4650#0" expanded="false" />
+                <element signature="e#4813#4814#0" expanded="false" />
+                <element signature="e#4843#4844#0" expanded="false" />
+                <element signature="e#5068#5069#0" expanded="false" />
+                <element signature="e#5101#5102#0" expanded="false" />
+                <element signature="e#6148#6149#0" expanded="false" />
+                <element signature="e#6188#6189#0" expanded="false" />
+                <element signature="e#6379#6380#0" expanded="false" />
+                <element signature="e#6419#6420#0" expanded="false" />
+                <element signature="e#6902#6903#0" expanded="false" />
+                <element signature="e#6940#6941#0" expanded="false" />
+                <element signature="e#7406#7407#0" expanded="false" />
+                <element signature="e#7442#7443#0" expanded="false" />
+                <element signature="e#7720#7721#0" expanded="false" />
+                <element signature="e#7764#7765#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectMapperResolver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/ObjectMapperResolver.java">
+      <file leaf-file-name="BasicServerEndpointConfigurator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.0.v20131115/javax-websocket-server-impl-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/jsr356/server/BasicServerEndpointConfigurator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="39" column="128" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1185">
+              <folding>
+                <element signature="e#0#3431#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +340,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -187,10 +358,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gdiama/ApplicationContextListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gdiama/AppExec.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gdiama/server/ObjectMapperResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/websocket-test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/server/ApplicationContextListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java" />
       </list>
     </option>
   </component>
@@ -228,8 +404,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,34 +422,237 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gdiama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="websocket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gdiama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gdiama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-guice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gdiama" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.gdiama" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Remote.Remote">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -327,7 +704,42 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Remote" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Remote.Remote" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -346,11 +758,13 @@
     <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -358,173 +772,351 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14717582" sideWeight="0.6705247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.146875" sideWeight="0.6705247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+        <state line="6" column="47" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="25" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0">
+        <state line="27" column="78" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/config/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/ObjectMapperResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+        <state line="23" column="32" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/ApplicationContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/ObjectMapperResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
+        <state line="46" column="22" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="59" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+        <state line="4" column="19" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/AppExec.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="118" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
+        <state line="45" column="25" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="16" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0">
+        <state line="32" column="16" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/AppExec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="51" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.0.3.v20130506/jetty-servlet-9.0.3.v20130506.jar!/org/eclipse/jetty/servlet/ServletContextHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="16" selection-start="5885" selection-end="5885" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="4140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.0.3.v20130506/jetty-servlet-9.0.3.v20130506-sources.jar!/org/eclipse/jetty/servlet/ServletContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="437" column="22" selection-start="16302" selection-end="16302" vertical-scroll-proportion="0.0" vertical-offset="5306" max-vertical-offset="17595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.0.3.v20130506/jetty-server-9.0.3.v20130506.jar!/org/eclipse/jetty/server/handler/ContextHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="19" selection-start="7319" selection-end="7319" vertical-scroll-proportion="0.0" vertical-offset="1691" max-vertical-offset="6810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.0.3.v20130506/jetty-server-9.0.3.v20130506-sources.jar!/org/eclipse/jetty/server/handler/ContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="773" column="236" selection-start="27627" selection-end="27627" vertical-scroll-proportion="0.0" vertical-offset="9806" max-vertical-offset="36510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="78" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.31990522">
+        <state line="68" column="67" selection-start="2738" selection-end="2738" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.0.v20131115/javax-websocket-server-impl-9.1.0.v20131115.jar!/org/eclipse/jetty/websocket/jsr356/server/deploy/WebSocketServerContainerInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="178" selection-end="178" vertical-scroll-proportion="0.11553273" vertical-offset="0" max-vertical-offset="779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0-sources.jar!/com/google/inject/servlet/GuiceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="105" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2217#2226#0" expanded="false" />
+            <element signature="e#2622#2638#0" expanded="false" />
+            <element signature="e#5342#5343#0" expanded="false" />
+            <element signature="e#5370#5371#0" expanded="false" />
+            <element signature="e#5411#5412#0" expanded="false" />
+            <element signature="e#5440#5441#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar!/com/google/inject/servlet/GuiceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="105" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.1.0.v20131115/websocket-common-9.1.0.v20131115.jar!/org/eclipse/jetty/websocket/common/events/annotated/CallableMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="558" selection-end="558" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0-sources.jar!/com/google/inject/servlet/GuiceServletContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/websocket-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="40" selection-start="772" selection-end="772" vertical-scroll-proportion="-18.333334" vertical-offset="115" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/ApplicationContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="47" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="96" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.0.v20131115/javax-websocket-server-impl-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/jsr356/server/AnnotatedServerEndpointConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="121" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/server/ServerEndpointConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="22" selection-start="3474" selection-end="3474" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/server/ServerEndpointConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="21" selection-start="11191" selection-end="11191" vertical-scroll-proportion="0.0" vertical-offset="2606" max-vertical-offset="5175">
+          <folding>
+            <element signature="e#0#16905#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.0.v20131115/javax-websocket-server-impl-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/jsr356/server/BasicServerEndpointConfigurator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="128" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="1185">
+          <folding>
+            <element signature="e#0#3431#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115.jar!/org/eclipse/jetty/servlet/ServletContextHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="50" selection-start="4907" selection-end="4907" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="4050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/servlet/ServletContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="364" column="52" selection-start="13217" selection-end="13217" vertical-scroll-proportion="0.0" vertical-offset="4211" max-vertical-offset="18315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/servlet/ServletHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="991" column="26" selection-start="36248" selection-end="36248" vertical-scroll-proportion="0.0" vertical-offset="12926" max-vertical-offset="24270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/9.1.0.v20131115/jetty-servlet-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/servlet/FilterMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="32" selection-start="3449" selection-end="3449" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="3555">
+          <folding>
+            <element signature="e#0#8724#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4615#4616#0" expanded="false" />
+            <element signature="e#4649#4650#0" expanded="false" />
+            <element signature="e#4813#4814#0" expanded="false" />
+            <element signature="e#4843#4844#0" expanded="false" />
+            <element signature="e#5068#5069#0" expanded="false" />
+            <element signature="e#5101#5102#0" expanded="false" />
+            <element signature="e#6148#6149#0" expanded="false" />
+            <element signature="e#6188#6189#0" expanded="false" />
+            <element signature="e#6379#6380#0" expanded="false" />
+            <element signature="e#6419#6420#0" expanded="false" />
+            <element signature="e#6902#6903#0" expanded="false" />
+            <element signature="e#6940#6941#0" expanded="false" />
+            <element signature="e#7406#7407#0" expanded="false" />
+            <element signature="e#7442#7443#0" expanded="false" />
+            <element signature="e#7720#7721#0" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.1.0.v20131115/javax-websocket-server-impl-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/jsr356/server/deploy/WebSocketServerContainerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="69" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2745">
+          <folding>
+            <element signature="e#0#8461#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#7567#7597#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-server/9.1.0.v20131115/websocket-server-9.1.0.v20131115.jar!/org/eclipse/jetty/websocket/server/WebSocketUpgradeFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="76" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-server/9.1.0.v20131115/websocket-server-9.1.0.v20131115-sources.jar!/org/eclipse/jetty/websocket/server/WebSocketUpgradeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="33" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2910">
+          <folding>
+            <element signature="e#0#8320#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6896#6897#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="false" />
+            <element signature="e#7062#7063#0" expanded="false" />
+            <element signature="e#7092#7093#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/JettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="255" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/server/MainModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1640" selection-end="1640" vertical-scroll-proportion="0.33247754" vertical-offset="101" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/ObjectMapperResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/resources/SampleResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gdiama/websocket/WebsocketEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="76" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="885">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/AsyncResponseImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="179" selection-end="179" vertical-scroll-proportion="0.09627728" vertical-offset="0" max-vertical-offset="779">
           <folding />
         </state>
       </provider>

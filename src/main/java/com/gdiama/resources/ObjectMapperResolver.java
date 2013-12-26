@@ -1,4 +1,4 @@
-package com.gdiama.server;
+package com.gdiama.resources;
 
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

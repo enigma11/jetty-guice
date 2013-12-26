@@ -7,6 +7,8 @@ import com.codahale.metrics.servlets.MetricsServlet;
 import com.gdiama.config.AppConfig;
 import com.google.inject.Provides;
 import com.google.inject.Singleton;
+import com.sun.jersey.api.core.PackagesResourceConfig;
+import com.sun.jersey.api.core.ResourceConfig;
 import com.sun.jersey.api.json.JSONConfiguration;
 import com.sun.jersey.guice.JerseyServletModule;
 import com.sun.jersey.guice.spi.container.servlet.GuiceContainer;
@@ -19,9 +21,9 @@ import java.util.concurrent.TimeUnit;
 
 public class MainModule extends JerseyServletModule {
 
-    private final String packageName;
+    private final String[] packageName;
 
-    public MainModule(String packageName) {
+    public MainModule(String... packageName) {
         this.packageName = packageName;
     }
 
@@ -31,13 +33,18 @@ public class MainModule extends JerseyServletModule {
 
         Map<String, String> parameters = new HashMap<>();
         parameters.put(JSONConfiguration.FEATURE_POJO_MAPPING, "true");
-        parameters.put("com.sun.jersey.config.property.resourceConfigClass", "com.sun.jersey.api.core.PackagesResourceConfig");
-        parameters.put("com.sun.jersey.config.property.packages", packageName);
+//        parameters.put("com.sun.jersey.config.property.resourceConfigClass", "com.sun.jersey.api.core.PackagesResourceConfig");
+//        parameters.put("com.sun.jersey.config.property.packages", packageName);
         parameters.put("jersey.config.beanValidation.enableOutputValidationErrorEntity.server", "true");
         parameters.put("com.sun.jersey.api.json.POJOMappingFeature", "true");
 
+        ResourceConfig rc = new PackagesResourceConfig(packageName);
+        for (Class<?> resource : rc.getClasses()) {
+            bind(resource).asEagerSingleton();
+        }
+
         serve("/metrics").with(MetricsServlet.class);
-        serve("/*").with(GuiceContainer.class, parameters);
+        serve("/rest/*").with(GuiceContainer.class, parameters);
     }
 
     @Provides

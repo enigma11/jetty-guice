@@ -2,6 +2,7 @@ package com.gdiama.server;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.servlets.MetricsServlet;
+import com.gdiama.websocket.WebsocketEndpoint;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.Stage;
@@ -9,13 +10,15 @@ import com.google.inject.servlet.GuiceServletContextListener;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
+import javax.websocket.DeploymentException;
+import javax.websocket.server.ServerContainer;
 
 public class ApplicationContextListener extends GuiceServletContextListener {
 
-    private String packageName;
+    private String[] packageName;
     private Injector injector;
 
-    public ApplicationContextListener(String packageName) {
+    public ApplicationContextListener(String... packageName) {
         this.packageName = packageName;
     }
 

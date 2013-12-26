@@ -4,7 +4,7 @@ import com.google.inject.servlet.GuiceServletContextListener;
 
 public class JettyServerWrapper {
 
-    private static final String PACKAGE_NAME = "com.gdiama";
+    private static final String[] PACKAGE_NAMES = {"com.gdiama.resources"};
     private final GuiceServletContextListener guiceConfig;
     private final int port;
 
@@ -12,7 +12,7 @@ public class JettyServerWrapper {
 
     public JettyServerWrapper(int port) {
         this.port = port;
-        this.guiceConfig = new ApplicationContextListener(PACKAGE_NAME);
+        this.guiceConfig = new ApplicationContextListener(PACKAGE_NAMES);
     }
 
     public void start() throws Exception {
